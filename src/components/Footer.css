@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  height: 100px;
+  background-color: rgba(170, 162, 162, 0.856);
+  margin-top: 20px;
+  bottom: 0;
+  justify-content: space-between;
+}
+.github {
+  color: #181717;
+  background-color: #fff;
+  border-radius: 50%;
+  outline: 0;
+  margin: 30px;
+}
+.github :hover {
+  color: #ce8c73;
+}
+.rocket {
+  color: #181717;
+  background-color: #fff5ea;
+  border-radius: 5%;
+  outline: 0;
+  margin: 30px;
+}
+.rocket :hover {
+  color: #ce8c73;
+}

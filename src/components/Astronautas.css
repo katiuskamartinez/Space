@@ -1,0 +1,79 @@
+.pageNumber {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.pageNumber li {
+  padding: 10px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.pageNumber li.active {
+  background-color: rgb(68, 74, 76);
+  color: black;
+}
+.pageNumber li button {
+  background-color: transparent;
+  border: none;
+  color: black;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.pageNumber li button:hover {
+  background-color: rgb(68, 74, 76);
+  color: black;
+}
+.pageNumber li button:focus {
+  outline: none;
+}
+.loadmore {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+.btnLoadMore {
+  color: black;
+  font-size: 1.2ram;
+  background-color: transparent;
+  border: 1px solid rgb(68, 74, 76);
+  cursor: pointer;
+  border: 1px solid black;
+  padding: 5px;
+}
+.loadmore button:hover {
+  background-color: rgb(68, 74, 76);
+}
+.car {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cars {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 15px 5px 15px 5px;
+  width: 300px;
+  background-color: rgba(170, 162, 162, 0.856);
+  border-radius: 8px;
+  padding-bottom: 5px;
+}
+.cars img {
+  max-width: 100%;
+  height: auto;
+}
+.wikipedia {
+  color: #181717;
+  background-color: #fff;
+  border-radius: 20%;
+  outline: 0;
+}
+.wikipedia :hover {
+  color: rgba(170, 162, 162, 0.856);
+}
+.youtube {
+  color: #c4302b;
+  outline: 0;
+}
