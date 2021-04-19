@@ -34,7 +34,7 @@ const renderData = (data) => {
 const Event = () => {
   let url = `https://ll.thespacedevs.com/2.0.0/event/?limit=50&offset=50`;
   let { data, isPending, error } = useFetch(url);
-  console.log(data);
+  //console.log(data);
 
   const [currentPage, setCurrentpage] = useState(1);
   const [itemsPerPage, setItemsPerPage] = useState(3);
