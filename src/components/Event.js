@@ -13,8 +13,6 @@ const renderData = (data) => {
         return (
           <div className="cars" key={index}>
             {<img src={el.feature_image} alt={el.feature_image} />}
-            <h4>{el.name}</h4>
-            <small>{el.date}</small>
             {
               <a href={el.video_url} target="blank" rel="noopener">
                 <FontAwesomeIcon
@@ -24,6 +22,8 @@ const renderData = (data) => {
                 />
               </a>
             }
+            <h4>{el.name}</h4>
+            <small>{el.date}</small>
           </div>
         );
       })}
