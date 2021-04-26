@@ -18,7 +18,6 @@ const renderData = (data) => {
                 alt={el.profile_image_thumbnail}
               />
             }
-            <h4>{el.name}</h4>
             <small>{el.nationality}</small>
             {
               <a href={el.wiki} target="blank" rel="noopener">
@@ -29,6 +28,7 @@ const renderData = (data) => {
                 />
               </a>
             }
+            <h4>{el.name}</h4>
           </div>
         );
       })}

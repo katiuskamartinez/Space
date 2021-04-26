@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useFetch } from "../hooks/useFetch";
-import "./Astronautas.css";
+import "./Event.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faYoutube } from "@fortawesome/free-brands-svg-icons";
 import Error from "./Error";
@@ -22,8 +22,8 @@ const renderData = (data) => {
                 />
               </a>
             }
-            <h4>{el.name}</h4>
             <small>{el.date}</small>
+            <h4>{el.name}</h4>
           </div>
         );
       })}
